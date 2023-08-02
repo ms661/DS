@@ -2,6 +2,8 @@ package com.ds.DS.data;
 
 import jakarta.persistence.*;
 
+@Entity
+@Table
 public class UserAddress {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
